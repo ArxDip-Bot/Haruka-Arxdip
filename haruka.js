@@ -1,3 +1,7 @@
+require('./settings')
+//require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
+
+
 const { spawn } = require('child_process')
 const path = require('path')
 
